@@ -1,0 +1,475 @@
+{
+  "tasks": [
+    {
+      "id": "task_dsa_01",
+      "title": "Complete DSA assignment",
+      "subject": "DSA",
+      "description": "Solve and test five topological sort and graph cycle problems",
+      "dueAt": "2026-10-22T14:30:00.000Z",
+      "estimatedMinutes": 90,
+      "priority": "high",
+      "status": "pending",
+      "createdAt": "2026-10-22T08:08:30.341Z"
+    },
+    {
+      "id": "task_dbms_02",
+      "title": "DBMS Exam Revision",
+      "subject": "DBMS",
+      "description": "Comprehensive review of 1NF, 2NF, 3NF, BCNF normalization, ACID properties and serializability",
+      "dueAt": "2026-10-23T04:30:00.000Z",
+      "estimatedMinutes": 120,
+      "priority": "high",
+      "status": "pending",
+      "createdAt": "2026-10-22T05:08:30.341Z"
+    },
+    {
+      "id": "task_os_03",
+      "title": "Operating Systems Presentation",
+      "subject": "OS",
+      "description": "Design slide deck on virtual memory paging and LRU page replacement algorithm",
+      "dueAt": "2026-10-24T08:30:00.000Z",
+      "estimatedMinutes": 60,
+      "priority": "medium",
+      "status": "pending",
+      "createdAt": "2026-10-21T10:08:30.341Z"
+    },
+    {
+      "id": "task_algo_04",
+      "title": "Algorithm Problem Set 4",
+      "subject": "Algorithms",
+      "description": "Practice dynamic programming: 0/1 Knapsack and Longest Common Subsequence",
+      "dueAt": "2026-10-25T12:30:00.000Z",
+      "estimatedMinutes": 75,
+      "priority": "low",
+      "status": "pending",
+      "createdAt": "2026-10-20T22:08:30.341Z"
+    }
+  ],
+  "studyPlans": [
+    {
+      "id": "plan_1792663711891",
+      "date": "2026-10-22",
+      "availableMinutes": 240,
+      "blocks": [
+        {
+          "type": "task",
+          "taskId": "task_dsa_01",
+          "title": "Complete DSA assignment",
+          "subject": "DSA",
+          "durationMinutes": 90,
+          "startMinute": 0,
+          "endMinute": 90,
+          "urgencyScore": 96,
+          "priority": "high",
+          "reason": "Urgency score 96/100. Due in 4.4h (high priority)."
+        },
+        {
+          "type": "break",
+          "title": "Cognitive Reset & Hydration Break",
+          "durationMinutes": 15,
+          "startMinute": 90,
+          "endMinute": 105,
+          "reason": "Recommended rest interval to maintain active recall retention and prevent cognitive fatigue."
+        },
+        {
+          "type": "task",
+          "taskId": "task_dbms_02",
+          "title": "DBMS Exam Revision",
+          "subject": "DBMS",
+          "durationMinutes": 120,
+          "startMinute": 105,
+          "endMinute": 225,
+          "urgencyScore": 91,
+          "priority": "high",
+          "reason": "Urgency score 91/100. Due in 18.4h (high priority)."
+        }
+      ],
+      "warnings": [
+        "Constraint Overload Detected: Total workload (5.8h) exceeds your 4h available window by 1h 45m. Priority algorithm allocated the most urgent assignments first and deferred 2 lower-urgency tasks."
+      ],
+      "deferredTasks": [
+        {
+          "taskId": "task_os_03",
+          "title": "Operating Systems Presentation",
+          "subject": "OS",
+          "reason": "Deferred due to time constraint (240 min limit reached). Scheduled for next available session.",
+          "urgencyScore": 60
+        },
+        {
+          "taskId": "task_algo_04",
+          "title": "Algorithm Problem Set 4",
+          "subject": "Algorithms",
+          "reason": "Deferred due to time constraint (240 min limit reached). Scheduled for next available session.",
+          "urgencyScore": 34
+        }
+      ],
+      "metrics": {
+        "totalStudyMinutes": 210,
+        "totalBreakMinutes": 15,
+        "totalAllocatedMinutes": 225,
+        "capacityUtilization": 94,
+        "totalPendingWorkloadMinutes": 345
+      },
+      "createdAt": "2026-10-22T10:08:31.891Z"
+    },
+    {
+      "id": "plan_1792663711865",
+      "date": "2026-10-22",
+      "availableMinutes": 240,
+      "blocks": [
+        {
+          "type": "task",
+          "taskId": "task_dsa_01",
+          "title": "Complete DSA assignment",
+          "subject": "DSA",
+          "durationMinutes": 90,
+          "startMinute": 0,
+          "endMinute": 90,
+          "urgencyScore": 96,
+          "priority": "high",
+          "reason": "Urgency score 96/100. Due in 4.4h (high priority)."
+        },
+        {
+          "type": "break",
+          "title": "Cognitive Reset & Hydration Break",
+          "durationMinutes": 15,
+          "startMinute": 90,
+          "endMinute": 105,
+          "reason": "Recommended rest interval to maintain active recall retention and prevent cognitive fatigue."
+        },
+        {
+          "type": "task",
+          "taskId": "task_dbms_02",
+          "title": "DBMS Exam Revision",
+          "subject": "DBMS",
+          "durationMinutes": 120,
+          "startMinute": 105,
+          "endMinute": 225,
+          "urgencyScore": 91,
+          "priority": "high",
+          "reason": "Urgency score 91/100. Due in 18.4h (high priority)."
+        }
+      ],
+      "warnings": [
+        "Constraint Overload Detected: Total workload (5.8h) exceeds your 4h available window by 1h 45m. Priority algorithm allocated the most urgent assignments first and deferred 2 lower-urgency tasks."
+      ],
+      "deferredTasks": [
+        {
+          "taskId": "task_os_03",
+          "title": "Operating Systems Presentation",
+          "subject": "OS",
+          "reason": "Deferred due to time constraint (240 min limit reached). Scheduled for next available session.",
+          "urgencyScore": 60
+        },
+        {
+          "taskId": "task_algo_04",
+          "title": "Algorithm Problem Set 4",
+          "subject": "Algorithms",
+          "reason": "Deferred due to time constraint (240 min limit reached). Scheduled for next available session.",
+          "urgencyScore": 34
+        }
+      ],
+      "metrics": {
+        "totalStudyMinutes": 210,
+        "totalBreakMinutes": 15,
+        "totalAllocatedMinutes": 225,
+        "capacityUtilization": 94,
+        "totalPendingWorkloadMinutes": 345
+      },
+      "createdAt": "2026-10-22T10:08:31.865Z"
+    }
+  ],
+  "quizAttempts": [
+    {
+      "id": "quiz_1792663711979",
+      "topic": "normalization",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Which Normal Form guarantees that every non-prime attribute is fully functionally dependent on every candidate key (no partial dependencies)?",
+          "options": [
+            "First Normal Form (1NF)",
+            "Second Normal Form (2NF)",
+            "Third Normal Form (3NF)",
+            "Boyce-Codd Normal Form (BCNF)"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "2NF eliminates partial dependencies by ensuring that every non-prime attribute is fully dependent on the whole candidate key, not just a subset."
+        },
+        {
+          "id": "q2",
+          "question": "A relation R(A, B, C) has functional dependency A -> B and B -> C. Which normal form is violated, and why?",
+          "options": [
+            "1NF because values are not atomic",
+            "2NF because there is a partial dependency",
+            "3NF because of transitive dependency A -> B -> C",
+            "BCNF only, 3NF is fully satisfied"
+          ],
+          "correctAnswerIndex": 2,
+          "explanation": "Transitive dependency (A determines B, and non-key B determines non-key C) violates 3NF, which requires all transitive dependencies to be removed."
+        },
+        {
+          "id": "q3",
+          "question": "How does Boyce-Codd Normal Form (BCNF) differ from Third Normal Form (3NF)?",
+          "options": [
+            "BCNF allows multi-valued dependencies whereas 3NF does not",
+            "In BCNF, for every functional dependency X -> Y, X MUST be a superkey without exception",
+            "3NF is strictly stronger than BCNF",
+            "BCNF always preserves functional dependencies whereas 3NF does not"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "BCNF removes 3NF's exception where Y could be a prime attribute. In BCNF, the determinant X must strictly be a superkey."
+        },
+        {
+          "id": "q4",
+          "question": "A decomposition of relation R into R1 and R2 is said to be lossless-join if and only if:",
+          "options": [
+            "R1 ∩ R2 = ∅",
+            "(R1 ∩ R2) -> R1 or (R1 ∩ R2) -> R2",
+            "R1 and R2 have the same number of attributes",
+            "Both R1 and R2 are in 1NF"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "A decomposition is lossless if the intersection of attributes forms a superkey for at least one of the decomposed relations."
+        },
+        {
+          "id": "q5",
+          "question": "Which anomaly occurs when deleting one piece of information accidentally removes unrelated essential information?",
+          "options": [
+            "Insertion anomaly",
+            "Deletion anomaly",
+            "Update anomaly",
+            "Concurrency anomaly"
+          ],
+          "correctAnswerIndex": 1,
+          "explanation": "A deletion anomaly occurs when data loss happens inadvertently because records combine distinct entities into one un-normalized table."
+        }
+      ],
+      "answers": [],
+      "score": 0,
+      "totalQuestions": 5,
+      "completed": false,
+      "source": "CampusPilot Curated Academic Bank (AWS Bedrock Ready)",
+      "createdAt": "2026-10-22T10:08:31.980Z"
+    }
+  ],
+  "agentRuns": [
+    {
+      "id": "run_1792663711990",
+      "request": "Plan my next four hours. My DSA assignment is due tonight and my DBMS exam is tomorrow. Then quiz me on normalization.",
+      "toolCalls": [
+        {
+          "name": "get_tasks",
+          "input": {
+            "status": "pending"
+          },
+          "output": {
+            "count": 4,
+            "tasks": [
+              {
+                "id": "task_dsa_01",
+                "title": "Complete DSA assignment",
+                "subject": "DSA",
+                "description": "Solve and test five topological sort and graph cycle problems",
+                "dueAt": "2026-10-22T14:30:00.000Z",
+                "estimatedMinutes": 90,
+                "priority": "high",
+                "status": "pending",
+                "createdAt": "2026-10-22T08:08:30.341Z"
+              },
+              {
+                "id": "task_dbms_02",
+                "title": "DBMS Exam Revision",
+                "subject": "DBMS",
+                "description": "Comprehensive review of 1NF, 2NF, 3NF, BCNF normalization, ACID properties and serializability",
+                "dueAt": "2026-10-23T04:30:00.000Z",
+                "estimatedMinutes": 120,
+                "priority": "high",
+                "status": "pending",
+                "createdAt": "2026-10-22T05:08:30.341Z"
+              },
+              {
+                "id": "task_os_03",
+                "title": "Operating Systems Presentation",
+                "subject": "OS",
+                "description": "Design slide deck on virtual memory paging and LRU page replacement algorithm",
+                "dueAt": "2026-10-24T08:30:00.000Z",
+                "estimatedMinutes": 60,
+                "priority": "medium",
+                "status": "pending",
+                "createdAt": "2026-10-21T10:08:30.341Z"
+              },
+              {
+                "id": "task_algo_04",
+                "title": "Algorithm Problem Set 4",
+                "subject": "Algorithms",
+                "description": "Practice dynamic programming: 0/1 Knapsack and Longest Common Subsequence",
+                "dueAt": "2026-10-25T12:30:00.000Z",
+                "estimatedMinutes": 75,
+                "priority": "low",
+                "status": "pending",
+                "createdAt": "2026-10-20T22:08:30.341Z"
+              }
+            ]
+          },
+          "status": "success",
+          "error": null,
+          "durationMs": 0,
+          "protocol": "mcp-streamable-http"
+        },
+        {
+          "name": "plan_day",
+          "input": {
+            "availableMinutes": 240,
+            "breakIntervalMinutes": 75,
+            "breakDurationMinutes": 15
+          },
+          "output": {
+            "id": "plan_1792663711891",
+            "date": "2026-10-22",
+            "availableMinutes": 240,
+            "blocks": [
+              {
+                "type": "task",
+                "taskId": "task_dsa_01",
+                "title": "Complete DSA assignment",
+                "subject": "DSA",
+                "durationMinutes": 90,
+                "startMinute": 0,
+                "endMinute": 90,
+                "urgencyScore": 96,
+                "priority": "high",
+                "reason": "Urgency score 96/100. Due in 4.4h (high priority)."
+              },
+              {
+                "type": "break",
+                "title": "Cognitive Reset & Hydration Break",
+                "durationMinutes": 15,
+                "startMinute": 90,
+                "endMinute": 105,
+                "reason": "Recommended rest interval to maintain active recall retention and prevent cognitive fatigue."
+              },
+              {
+                "type": "task",
+                "taskId": "task_dbms_02",
+                "title": "DBMS Exam Revision",
+                "subject": "DBMS",
+                "durationMinutes": 120,
+                "startMinute": 105,
+                "endMinute": 225,
+                "urgencyScore": 91,
+                "priority": "high",
+                "reason": "Urgency score 91/100. Due in 18.4h (high priority)."
+              }
+            ],
+            "warnings": [
+              "Constraint Overload Detected: Total workload (5.8h) exceeds your 4h available window by 1h 45m. Priority algorithm allocated the most urgent assignments first and deferred 2 lower-urgency tasks."
+            ],
+            "deferredTasks": [
+              {
+                "taskId": "task_os_03",
+                "title": "Operating Systems Presentation",
+                "subject": "OS",
+                "reason": "Deferred due to time constraint (240 min limit reached). Scheduled for next available session.",
+                "urgencyScore": 60
+              },
+              {
+                "taskId": "task_algo_04",
+                "title": "Algorithm Problem Set 4",
+                "subject": "Algorithms",
+                "reason": "Deferred due to time constraint (240 min limit reached). Scheduled for next available session.",
+                "urgencyScore": 34
+              }
+            ],
+            "metrics": {
+              "totalStudyMinutes": 210,
+              "totalBreakMinutes": 15,
+              "totalAllocatedMinutes": 225,
+              "capacityUtilization": 94,
+              "totalPendingWorkloadMinutes": 345
+            },
+            "createdAt": "2026-10-22T10:08:31.891Z"
+          },
+          "status": "success",
+          "error": null,
+          "durationMs": 40,
+          "protocol": "mcp-streamable-http"
+        },
+        {
+          "name": "generate_quiz",
+          "input": {
+            "topic": "normalization",
+            "questionCount": 5,
+            "difficulty": "medium"
+          },
+          "output": {
+            "quizId": "quiz_1792663711979",
+            "topic": "normalization",
+            "totalQuestions": 5,
+            "questions": [
+              {
+                "id": "q1",
+                "question": "Which Normal Form guarantees that every non-prime attribute is fully functionally dependent on every candidate key (no partial dependencies)?",
+                "options": [
+                  "First Normal Form (1NF)",
+                  "Second Normal Form (2NF)",
+                  "Third Normal Form (3NF)",
+                  "Boyce-Codd Normal Form (BCNF)"
+                ]
+              },
+              {
+                "id": "q2",
+                "question": "A relation R(A, B, C) has functional dependency A -> B and B -> C. Which normal form is violated, and why?",
+                "options": [
+                  "1NF because values are not atomic",
+                  "2NF because there is a partial dependency",
+                  "3NF because of transitive dependency A -> B -> C",
+                  "BCNF only, 3NF is fully satisfied"
+                ]
+              },
+              {
+                "id": "q3",
+                "question": "How does Boyce-Codd Normal Form (BCNF) differ from Third Normal Form (3NF)?",
+                "options": [
+                  "BCNF allows multi-valued dependencies whereas 3NF does not",
+                  "In BCNF, for every functional dependency X -> Y, X MUST be a superkey without exception",
+                  "3NF is strictly stronger than BCNF",
+                  "BCNF always preserves functional dependencies whereas 3NF does not"
+                ]
+              },
+              {
+                "id": "q4",
+                "question": "A decomposition of relation R into R1 and R2 is said to be lossless-join if and only if:",
+                "options": [
+                  "R1 ∩ R2 = ∅",
+                  "(R1 ∩ R2) -> R1 or (R1 ∩ R2) -> R2",
+                  "R1 and R2 have the same number of attributes",
+                  "Both R1 and R2 are in 1NF"
+                ]
+              },
+              {
+                "id": "q5",
+                "question": "Which anomaly occurs when deleting one piece of information accidentally removes unrelated essential information?",
+                "options": [
+                  "Insertion anomaly",
+                  "Deletion anomaly",
+                  "Update anomaly",
+                  "Concurrency anomaly"
+                ]
+              }
+            ],
+            "source": "CampusPilot Curated Academic Bank (AWS Bedrock Ready)"
+          },
+          "status": "success",
+          "error": null,
+          "durationMs": 58,
+          "protocol": "mcp-streamable-http"
+        }
+      ],
+      "outcome": "Here is your optimized **4-Hour Action Plan** and active recall practice session:\n\n### ⏱️ Deterministic Schedule (240 Available Mins)\n- **0–90 min**: ...",
+      "provider": "AWS Bedrock + MCP",
+      "durationMs": 109,
+      "createdAt": "2026-10-22T10:08:31.990Z"
+    }
+  ]
+}

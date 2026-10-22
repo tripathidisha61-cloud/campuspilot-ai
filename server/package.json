@@ -1,0 +1,33 @@
+{
+  "name": "campuspilot-server",
+  "version": "1.0.0",
+  "description": "CampusPilot AI - Backend & MCP Server with Streamable HTTP and AWS Bedrock integration",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "seed": "node src/db/seed.js",
+    "test": "node tests/test-planner.js"
+  },
+  "keywords": [
+    "academic",
+    "productivity",
+    "mcp",
+    "alexa-plus",
+    "aws-bedrock",
+    "agentic-ai",
+    "hackathon"
+  ],
+  "author": "CampusPilot AI Team",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-sdk/client-bedrock-runtime": "^3.1155.0",
+    "@modelcontextprotocol/sdk": "^1.32.1",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.8",
+    "express": "^5.3.0",
+    "mongoose": "^8.24.6",
+    "zod": "^4.6.7"
+  }
+}
