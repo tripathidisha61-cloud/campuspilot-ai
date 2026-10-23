@@ -4,12 +4,17 @@ import { fileURLToPath } from 'url';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const DATA_DIR = path.resolve(__dirname, '../../data');
+const isVercel = !!process.env.VERCEL;
+const DATA_DIR = isVercel ? '/tmp' : path.resolve(__dirname, '../../data');
 const DATA_FILE = path.join(DATA_DIR, 'campuspilot_store.json');
 
 // Ensure data directory exists
-if (!fs.existsSync(DATA_DIR)) {
-  fs.mkdirSync(DATA_DIR, { recursive: true });
+try {
+  if (!fs.existsSync(DATA_DIR)) {
+    fs.mkdirSync(DATA_DIR, { recursive: true });
+  }
+} catch (e) {
+  console.warn('[Store] Notice: running with in-memory persistence fallback:', e.message);
 }
 
 function loadInitialData() {

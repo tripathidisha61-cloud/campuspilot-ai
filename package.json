@@ -2,12 +2,13 @@
   "name": "campuspilot-ai",
   "version": "1.0.0",
   "description": "CampusPilot AI — Turn academic chaos into a clear plan of action. Intelligent academic productivity assistant with Alexa+ MCP Streamable HTTP and AWS Bedrock integration.",
+  "type": "module",
   "scripts": {
+    "build": "npm run build --prefix client",
     "start": "node server/src/index.js",
     "server": "npm run start --prefix server",
     "client": "npm run dev --prefix client",
     "test": "npm run test --prefix server",
-    "build": "npm run build --prefix client",
     "seed": "npm run seed --prefix server"
   },
   "keywords": [
@@ -19,5 +20,14 @@
     "hackathon"
   ],
   "author": "CampusPilot AI Team",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@aws-sdk/client-bedrock-runtime": "^3.1155.0",
+    "@modelcontextprotocol/sdk": "^1.32.1",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.8",
+    "express": "^5.3.0",
+    "mongoose": "^8.24.6",
+    "zod": "^4.6.7"
+  }
 }
